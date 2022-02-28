@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rook-community
+    username: root
+    password: mysql
+    initialize: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show: true
